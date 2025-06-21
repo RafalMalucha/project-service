@@ -8,6 +8,6 @@ public class ProjectController {
 
     @GetMapping("/test")
     public String test() {
-        return "This is a test - project-service";
+        return "This is a test - project-service" + "\n\n";
     }
 }
